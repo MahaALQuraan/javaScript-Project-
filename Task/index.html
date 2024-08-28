@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Task</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="h1">devfinder</div>
+        <div class="cont">
+          <div class="h4">DARK</div>
+          <img
+            src="images/icon-moon.svg"
+            alt=""
+            id="mybtn"
+            onclick="darkmode()"
+          />
+        </div>
+      </div>
+      <div class="part2">
+        <div class="cont">
+          <form id="myform" autocomplete="off">
+            <img src="images/icon-search.svg" alt="" />
+
+            <input
+              type="text"
+              id="search"
+              placeholder="Search GitHub username…"
+            />
+
+            <p id="empty"></p>
+            <button class="one" id="button">Search</button>
+          </form>
+        </div>
+      </div>
+      <div class="part3">
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
